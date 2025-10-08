@@ -1,0 +1,264 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    
+}
+#first{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    
+    
+}
+#first:hover{
+    color: aqua;
+}
+#second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    width: 100%;
+
+}
+#box{
+    height: 25%;
+    width: 600px;
+    background-color: blue;
+    padding-left: 400px;
+    margin-left: 300px;
+}
+#third{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#input{
+    display: flex;
+  justify-content: space-around;
+  height: 8%;
+  width: 100%;
+
+}
+#Email{
+    margin-left: 300px;
+    height: 8%;
+    width: 100%;
+}
+#username{
+    margin-left: 300px;
+    height: 8%;
+    width: 100%;
+}
+#password{
+    margin-left: 300px;
+    height: 8%;
+    width: 100%;
+}
+#Join{
+    height: 8%;
+    width: 600px;
+    background-color:black;
+    color: white;
+    padding-left: 400px;
+    margin-left: 300px;
+    align-items: center;
+    
+}
+a{
+    color: blue;
+}
+#footer{
+    
+    width: 100%;
+    background-color: aqua;
+    height:5%;
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+
+#header{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+#fakeheader{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+}
+
+
+#image{
+    height: 100%;
+    width: 100%;
+    background-color: yellow
+}
+#solid{
+    height: 70%;
+    width: 100%;
+    
+}
+
+
+#ritik{
+    height: 15%;
+    width: 100%;
+    background-color: red;
+}
+#work{
+    height: 100%;
+    width: 100%;
+}
+
+    
+#mid{
+    display: flex;
+}
+#side{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#variety{
+    height: 40%;
+    width: 100%;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#search{
+    height: 100%;
+    width: 30%;
+    background-color: wheat;
+    border: 2px solid black;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-around;
+
+}
+#get{
+    display: flex;
+}
+#options{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+}
+i:hover{
+    color: blue;
+
+}
+#options{
+    height: 30%;
+    width: 100%;
+}
+#unsplash{
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    top: 0;
+    position: sticky;
+    background-color: aqua;
+    
+
+    
+
+
+}
+#check{
+    display: flex;
+}
+#Product{
+    display: flex;
+}
+#Community{
+    display: flex;
+}
+#Legal{
+    display: flex;
+}
+#Explore{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex: 1;
+    width: 80%;
+    height: 60%;
+}
+.row img{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#ball{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+    margin-right: 1000px;
+    
+    
+
+}
+@keyframes colorAnimate{
+    from{background-color: red;
+        left: 0px;
+    }
+    to{background-color: brown;
+        left: 200px;
+    }
+}
+#sphere{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+    margin-left: 0;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
